@@ -1159,7 +1159,7 @@ type CourseGroup struct {
 }
 
 type CourseRole struct {
-	Id        int64  `json:"id"`
+	Id        int64  `json:"roleid"`
 	Name      string `json:"name"`
 	ShortName string `json:"shortname"`
 }
